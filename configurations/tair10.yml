@@ -1,0 +1,16 @@
+name: tair10
+tools:
+  bwa: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/bwa/0.7.17/bin/bwa'
+  hisat2: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/hisat2/2.2.1/bin/hisat2'
+  stringtie: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stringtie/2.1.5/bin/stringtie'
+  samtools: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/samtools/1.16.1/bin/samtools'
+
+reference:
+  fasta: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/tair/tair10/tair10.fa'
+  gtf: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/tair/tair10/TAIR10_cufflinks_gene.gtf'
+  bwa_index: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/tair/tair10/bwa_0.7.17/tair10.fa'
+  hisat_index: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/tair/tair10/hisat2_2.2.1/tair10'
+
+
+
+
