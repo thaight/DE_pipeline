@@ -1,0 +1,13 @@
+name: rn7
+tools:
+  bwa: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/bwa/0.7.17/bin/bwa'
+  hisat2: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/hisat2/2.2.1/bin/hisat2'
+  stringtie: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stringtie/2.1.5/bin/stringtie'
+  samtools: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/samtools/1.16.1/bin/samtools'
+
+reference:
+  fasta: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/rn/rn7/rn7.fa'
+  gtf: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/rn/rn7/rn7_ncbi.gtf'
+  bwa_index: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/rn/rn7/bwa_0.7.17/rn7.fa'
+  hisat_index: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/rn/rn7/hisat2_2.2.1/rn7'
+
