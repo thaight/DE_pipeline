@@ -1,0 +1,15 @@
+name: mm10
+tools:
+  bwa: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/bwa/0.7.17/bin/bwa'
+  hisat2: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/hisat2/2.2.1/bin/hisat2'
+  stringtie: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stringtie/2.1.5/bin/stringtie'
+  samtools: '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/samtools/1.16.1/bin/samtools'
+
+reference:
+  fasta: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/mmu/mm10/UCSC_mm10.fa'
+  gtf: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/mmu/mm10/mm10_ncbiRefSeq.gtf'
+  bwa_index: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/mmu/mm10/bwa_0.7.17_UCSC_mm10/UCSC_mm10.fa'
+  hisat_index: '/home/thaight/projects/rrg-zovoilis/thaight/genomes/mmu/mm10/hisat2_2.2.1_UCSC_mm10/mm10'
+
+
+
